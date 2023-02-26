@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body{
+    background-color:#FBF5EF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+}
+
+.capsula{
+    position: relative;
+    width: 100%;
+    max-width: 800px;  
+    min-height: 1000px;
+    margin: 50px;
+    background: #ffff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+
+.capsula .cuadrado-izquierdo{
+    position: relative;
+    background: #003147;
+    padding: 40px;
+}
+
+.textoContenido{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.textoContenido .imagen-perfil{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.textoContenido .imagen-perfil img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.textoContenido h2{
+    color: #fff;
+    margin-top: 20px;
+    font-size: 1.5em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.textoContenido h2 span {
+    font-size: 0.5em;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+
+.Info-about-me{
+    padding: 10px;
+    position: relative;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.titulo{
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.Info-about-me p{
+    color: #fff;
+    font-family: 'Gill Sans';
+    font-size: 12px;
+}
+
+.Info-contacto{
+    padding: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.Info-contacto ul li{
+    position: relative;
+    margin: 5px 0;
+    list-style: none;
+    cursor: pointer;
+}
+
+.Info-contacto ul li .icono{
+    display: inline-block;
+    color: rgb(77, 141, 194);
+    font-size: 17px;
+}
+
+.Info-contacto ul li span{
+    color: #fff;
+    font-family: 'Gill Sans';
+    font-size: 12px;
+    
+}
+
+.Info-aptitudes{
+    padding: 10px;
+    position: relative;
+}
+
+.Info-aptitudes ul li{
+    margin: 5px 0;
+    list-style: circle;
+}
+
+.Info-aptitudes ul li h5{
+    color: #fff;
+    font-family: 'Gill Sans';
+    font-size: 12px;
+}
+
+
+.capsula .cuadrado-derecho{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+.about-me2{
+    margin-bottom: 50px;
+}
+
+.about-me2:last-child{
+    margin-bottom: 0;
+}
+
+p{
+    color: #333;
+    font-size: 10px;
+}
+
+.titulo2{
+    color: #003147;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.about-me2 .cajita{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+.about-me2 .cajita .educacion{
+    min-width: 150px;
+}
+.about-me2 .cajita .educacion h5{
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 600;
+}
+
+.about-me2 .cajita .texto h4{
+    text-transform: uppercase;
+    color: #2a7da2;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.habilidades .cajita{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 14px;
+}
+
+.habilidades .cajita h4{
+    color: #2a2d2e;
+    font-weight: 500;
+}
