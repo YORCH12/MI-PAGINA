@@ -27,13 +27,12 @@ header{
     width: 100%;
     height: 400px;
      
-    background: #0575E6;  
+    background: #1a2a6c;  
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #021B79, #0575E6);  
+    background: -webkit-linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);  
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #021B79, #0575E6); 
+    background: linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c); 
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
     
 
 
@@ -77,8 +76,10 @@ header .inicio-header{
 }
 
 .imagen-codigo{
-    width: 50%;
+    width: 45%;
+    height: 400px;
     padding: 50px;
+    margin-top: 20px;
 }
 
 .contenedor-historia{
@@ -95,13 +96,11 @@ header .inicio-header{
 }
 
 .imagen-historia{
-    width: 50%;
+    width: 70%;
     padding: 50px;
-    height: 500px;
 }
 
-
-.contenedor-funcionamiento{
+.contenedor-funcion{
     font-size: 17px;
     font-family: arial;
     display: flex;
@@ -109,27 +108,53 @@ header .inicio-header{
     display: flex;
 }
 
-.contenedor-funcionamiento h4{
+.contenedor-funcion h4{
     font-weight: 30px;
     font-size: 20px;
     margin-top: 15px;
 }
 
-.imagen-funcionamiento{
-    width: 55%;
-    padding: 35px;
-    height: 350px;
-}
-
-
-.contenedor-funcionamiento p span{
-    font-weight: 40px;
-    color: #001aff;
+.contenedor-funcion ul li span{
+    font-weight: 30px;
+    color: #8203bd;
     font-family:    'Lucida Sans';
 }
 
-.imagen-etiquetas{
+.imagen-gitsito{
+    width: 50%;
+    padding: 30px;
+    height: 500px;
+}
+
+.contenedor-comandos{
+    font-size: 17px;
+    font-family: arial;
+    display: flex;
+    text-align: justify;
+    display: flex;
+    padding: 0;
+}
+
+.contenedor-comandos h4{
+    font-weight: 30px;
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.contenedor-comandos ul li span{
+    font-weight: 40px;
+    color: #8203bd;
+    font-family:    'Lucida Sans';
+}
+
+.imagen-command{
     width: 55%;
     padding: 35px;
-    height: 350px;
+    height: 300px;
+}
+
+.imagen-command2{
+    width: 50%;
+    padding: 40px;
+    height: 630px;
 }
